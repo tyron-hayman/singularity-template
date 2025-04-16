@@ -21,9 +21,9 @@
 
 body {
   background: var(--background);
-  font-family: var(--font-mono), Helvetica, sans-serif;
+  font-family: var(--font-opensans-sans), Helvetica, sans-serif;
 }
 
 .mainHeadings {
-  font-family: var(--font-sans), Helvetica, sans-serif;
+  font-family: var(--font-playfair-mono), Georgia, 'Times New Roman', Times, serif, sans-serif;
 }
