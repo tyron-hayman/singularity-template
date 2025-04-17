@@ -17,7 +17,7 @@ export default function Home() {
   },[]);
 
   return (
-    <div className="w-full py-40 mb-[100vh] relative">
+    <div className="w-full mb-[100vh] relative">
       <HeroComponent
         title="Hi! I am Tyron, a passionate & ambitious web developer."
         subTitle="From the beautiful city of Vancouver, BC."
