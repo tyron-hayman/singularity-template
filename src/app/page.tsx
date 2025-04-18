@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import HeroComponent from "@/components/HeroComponent";
+import GlobalNav from "@/components/GlobalNav";
 import Lenis from "lenis";
 import { useEffect } from "react";
 
@@ -17,7 +18,8 @@ export default function Home() {
   },[]);
 
   return (
-    <div className="w-full mb-[100vh] relative">
+    <div className="w-full mb-[100vh]">
+      <GlobalNav />
       <HeroComponent
         title="Hi! I am Tyron, a passionate & ambitious web developer."
         subTitle="From the beautiful city of Vancouver, BC."

@@ -23,7 +23,7 @@ const TextAnimation = ({ phrase }: { phrase: string }) => {
         return (
           <span
             key={`phrase${index}`}
-            className="inline-block pr-5 overflow-hidden"
+            className="inline-block pr-5 pb-5 overflow-hidden"
           >
             <motion.span
               className="block"
