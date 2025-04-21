@@ -2,6 +2,7 @@
 import Image from "next/image";
 import HeroComponent from "@/components/HeroComponent";
 import GlobalNav from "@/components/GlobalNav";
+import WorksComponent from "@/components/WorksComponent";
 import Lenis from "lenis";
 import { useEffect } from "react";
 import { useScroll } from "motion/react"
@@ -27,6 +28,7 @@ export default function Home() {
         subTitle="From the beautiful city of Vancouver, BC."
         scrollProgress={scrollYProgress}
       />
+      <WorksComponent />
     </div>
   );
 }

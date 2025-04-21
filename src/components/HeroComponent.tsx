@@ -1,5 +1,4 @@
 import * as motion from "motion/react-client";
-import type { MotionValue } from "motion/react";
 import TextAnimation from "./TextAnimationComponent";
 import { MapPin } from "lucide-react";
 import { useTransform } from "motion/react";
@@ -14,7 +13,7 @@ const HeroComponent = ({
   scrollProgress?: any
 }) => {
   const animationTiming: number = 0.75;
-  const y = useTransform(scrollProgress, [0,1], [0,500]);
+  const y = useTransform(scrollProgress, [0,1], [0,800]);
 
   return (
     <div className="w-full h-screen flex items-center justify-center">
